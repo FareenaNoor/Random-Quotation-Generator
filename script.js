@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.removeItem('username');
       localStorage.removeItem('password');
       alert('Logged out successfully!');
-      window.location.href = 'login.html';
+      window.location.href = 'index.html';
     });
   
     displayQuote();
