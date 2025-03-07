@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const user = users.find(u => u.username === username && u.password === password);
 
       if (user) {
-        window.location.href = 'index.html';
+        window.location.href = 'home.html';
       } else {
         alert('Invalid username or password.');
       }
