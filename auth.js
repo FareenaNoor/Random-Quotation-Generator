@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         users.push({ username, password });
         localStorage.setItem('users', JSON.stringify(users));
         alert('Registration successful!');
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
       }
     });
   }
